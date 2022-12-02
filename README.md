@@ -9,13 +9,13 @@
 <h1 align="center">Angular Tictactoe</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/angular-tictactoe?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{danivngopro}}/angular-tictactoe?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{YOUR_GITHUB_USERNAME}}/angular-tictactoe?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{danivngopro}}/angular-tictactoe?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{YOUR_GITHUB_USERNAME}}/angular-tictactoe?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{danivngopro}}/angular-tictactoe?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/{{YOUR_GITHUB_USERNAME}}/angular-tictactoe?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/{{danivngopro}}/angular-tictactoe?color=56BEB8">
 
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/angular-tictactoe?color=56BEB8" /> -->
 
@@ -46,13 +46,13 @@
 
 ## :dart: About ##
 
-Describe your project
+A tictactoe game developed in angular
 
 ## :sparkles: Features ##
 
 :heavy_check_mark: play as x player\
-:heavy_check_mark: play as o player;\
-:heavy_check_mark: win and restart the game;
+:heavy_check_mark: play as o player\
+:heavy_check_mark: win and restart the game
 
 ## :rocket: Technologies ##
 
