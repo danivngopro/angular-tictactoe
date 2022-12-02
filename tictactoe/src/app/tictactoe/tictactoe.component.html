@@ -1,0 +1,55 @@
+<div class="container-fluid bg-light" style="height: 100vh">
+  <div class="container d-flex justify-content-center">
+    <div class="shadow-lg mt-5 rounded-4" style="height: 650px; width: 500px">
+      <div class="m-4 text-bg-warning shadow-lg rounded" style="color: white">
+        <h4 class="p-3">Current Player:</h4>
+      </div>
+
+      <div class="d-flex justify-content-between">
+        <div class="m-4 text-bg-warning shadow-lg rounded" style="color: white">
+          <h5 class="p-2" *ngIf="winner !== ''">Player {{ winner }} WON!</h5>
+        </div>
+        <div class="m-4">
+          <button
+            type="button"
+            class="btn btn-outline-warning"
+            style="height: 50px"
+            (click)="newGame()"
+          >
+            start new game
+          </button>
+        </div>
+      </div>
+
+      <div class="m-4 ps-4">
+        <div class="card shadow" style="width: 400px; height: 400px">
+          <div
+            class="container text-center"
+            *ngFor="let line of gameArr; index as i"
+          >
+            <div class="row" style="height: 133px">
+              <div
+                class="col border p-0"
+                *ngFor="let item of line; index as j"
+                (click)="nextTurn(i, j)"
+              >
+                <div
+                  *ngIf="item === 'x'"
+                  style="background-color: #2aa2ff; width: 100%; height: 100%"
+                >
+                  <h1 style="color: white; padding-top: 2rem">{{ item }}</h1>
+                </div>
+                <div
+                  *ngIf="item === 'o'"
+                  style="background-color: #19c797; width: 100%; height: 100%"
+                >
+                  <h1 style="color: white; padding-top: 2rem">{{ item }}</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
