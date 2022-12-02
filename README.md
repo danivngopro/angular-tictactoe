@@ -50,9 +50,9 @@ Describe your project
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: play as x player\
+:heavy_check_mark: play as o player;\
+:heavy_check_mark: win and restart the game;
 
 ## :rocket: Technologies ##
 
@@ -78,21 +78,17 @@ $ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/angular-tictactoe
 $ cd angular-tictactoe
 
 # Install dependencies
-$ yarn
+$ npm
 
 # Run the project
-$ yarn start
+$ npm start
 
 # The server will initialize in the <http://localhost:3000>
 ```
+# images:
+![image](https://user-images.githubusercontent.com/44786079/205321731-5a2c6559-2bd8-41d0-ab4b-60fb9e26afc1.png)
+![image](https://user-images.githubusercontent.com/44786079/205321795-f14c8ba4-8b8d-4404-940f-7db140237676.png)
+![image](https://user-images.githubusercontent.com/44786079/205321862-fa11c53b-fde2-46ca-8c8f-cfc720e9b99a.png)
 
-## :memo: License ##
-
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
-
-
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{YOUR_NAME}}</a>
-
-&#xa0;
 
 <a href="#top">Back to top</a>
